@@ -18,9 +18,9 @@ public class SwapNumber {
         number1 = num1;
         int num2 = RANDOM.nextInt(100);
         number2 = num2;
-        num1 = ?;
-        num2 = ?;
-        num1 = ?;
+        num1 = num1 ^ num2;
+        num2 = num1 ^ num2;
+        num1 = num1 ^ num2;
         System.out.println("num 1 after swapping: " + num1);
         System.out.println("num 2 after swapping: " + num2);
     }
